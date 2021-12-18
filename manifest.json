@@ -1,0 +1,13 @@
+{
+  "name": "Bookmark Widget",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "The idea is that you want the you will be also to search bookmarks based on tags and their rankings.",
+  "permissions": ["bookmarks", "contextMenus", "tabs", "storage", "<all_urls>"],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["contextMenu.js"]
+  }
+}
